@@ -3335,7 +3335,7 @@ ul.pagination {
     clear: both; }
   .accordion dd {
     display: block;
-    margin-bottom: 0 !important; }
+    margin-bottom: 0; }
     .accordion dd.active a {
       background: #e7e7e7; }
     .accordion dd > a {
@@ -5487,6 +5487,7 @@ font-size: 14px;
 
 dd{
   border-bottom: 2px solid #fff;
+  margin-bottom: 5px !important;
 }
 
 .panel{
@@ -5514,7 +5515,6 @@ dd{
   background: #3d516a url("../images/slider.jpg");
 }
     .main_banner h1{
-        font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
         color: #fff;
         font-size: 700%;
         line-height: 300px;
@@ -5546,13 +5546,20 @@ dd{
     color: #3d516a;
   }
 
-.about_1 h1, .about_2 h1, .about_3 h1 {
+.about_1 h1, .about_2 h1, .about_3 h1, .story h1 {
   font-size: 3.45em;
   color: #3d516a;
   margin-bottom: 40px;
   font-weight: 700;
 }
+    
 
+.story p{
+  color: #444;
+  font-size: 1.2em;
+  font-style: normal;
+  line-height: 1.4em;
+}
 
 .about_2 p, .about_3 p,  {
   color: #444;
@@ -5561,8 +5568,14 @@ dd{
 }
 
 .about_2 .sec_1, .about_3 .sec_2 {
-  background: #3A90D7;
+  background-image: url("../images/studio.jpg");
+  background-size: 100% 100%;
   height: 300px;
+}
+
+.about_3 .sec_2 {
+  background-image: url("../images/laptop_illus.jpg");
+  background-size: 100% 100%;
 }
 
 .about_2, .about_3 {
@@ -5594,7 +5607,7 @@ border-right: 50px solid transparent;
 
 #contact_form{
   font-size: 16px;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   color: #fff;
 }
 
@@ -5888,7 +5901,6 @@ border-radius: 4px;
 
 @media only screen and (max-width: 40em) {
   .main_banner h1 {
-        font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
         color: #fff;
         font-size: 600%;
         line-height: 100%;

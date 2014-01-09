@@ -45,6 +45,7 @@ header{
 	background: #fff;
 	width: 100%;
 	background: #348eda;
+	font-family: "Museo_slab500","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .hamburger_menu{
@@ -500,14 +501,37 @@ li.first{
 	background-color: #EBEFF2;
 }
 
+	#our_story {
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 60px;
+	background-color: #fff;
+}
+
+	#our_story_1 {
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 60px;
+	background-color: #fff;
+}
+
 #customers .arrow-down{
 	border-top: 50px solid #3A90D7;
 }
 
-#customers .triangle{
+#customers .triangle {
 	border-top: 50px solid #3A90D7;
 }
 
+#our_story .triangle {
+	border-top: 50px solid #EBEFF2;
+}
+
+/*#our_story_1 .triangle{
+	border-top: 50px solid;
+}*/
 
 #customers .circular_wrapper{
 	height: 125px;
@@ -708,6 +732,8 @@ footer a{
 		z-index: 99;
 		width: 100%;
 		position: relative;
+		font-family: "Museo_slab500","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-style: normal;
 	}
 
 	.hamburger_menu{
