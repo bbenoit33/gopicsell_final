@@ -5696,8 +5696,27 @@ border-radius: 4px;
 
 }
 
+.home_top h1 {
+  font-size: 2.60em;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 0px;
+}
+  .home_top p{
+    font-size: 1.125em;
+    color: #fff;
+    font-style: italic;
+  }
+.home_desc p{
+  margin-left: 40px;
+  font-size: 1.34em;
+  color: #fff;
+}
 
-
+.home_desc i{
+  font-size: 2.0em;
+  color: #fff;
+}
 /***********Changes Sub-Footer Color. Doing it here because the original code is somewhere in the original designer's style sheet. Not gonna touch that******/
 #notifyme {
   background: #fff;
