@@ -5695,7 +5695,25 @@ border-radius: 4px;
 
 }
 
-<<<<<<< HEAD
+.stepbox_1, .stepbox_2, .stepbox_3 {
+  width: 35px;
+  height: 35px;
+  background-size: 100% 100%;
+}
+      .stepbox_1{
+        background-image: url("../images/step1.png");
+      }
+      .stepbox_2{
+        background-image: url("../images/step2.png");
+      }
+      .stepbox_3{
+        background-image: url("../images/step3.png");
+      }
+
+.desc_row{
+  margin-bottom: 30px;
+}
+
 .home_top h1 {
   font-size: 2.60em;
   color: #fff;
@@ -5707,9 +5725,17 @@ border-radius: 4px;
     color: #fff;
     font-style: italic;
   }
+
+  .home_desc {
+    margin-top: 20px;
+  }
+
 .home_desc p{
-  margin-left: 40px;
-  font-size: 1.34em;
+  margin-left: 60px;
+  font-size: 1.2em;
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+  font-weight: 100;
   color: #fff;
 }
 
@@ -5798,7 +5824,7 @@ border-radius: 4px;
   color: #3D516A;
 }
 
->>>>>>> b860180f3df31409e77f81a3f5e6dcc21a562742
+
 /***********Changes Sub-Footer Color. Doing it here because the original code is somewhere in the original designer's style sheet. Not gonna touch that******/
 #notifyme {
   background: #fff;
