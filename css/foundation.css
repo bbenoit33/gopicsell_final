@@ -59,7 +59,7 @@ meta.foundation-mq-xxlarge {
 
 html,
 body {
-  font-size: 100%; }
+  font-size: 14px;; }
 
 body {
   background: white;
@@ -5695,7 +5695,6 @@ border-radius: 4px;
 
 }
 
-
 #customers{
   background: #fff;
   position: relative;
@@ -5704,6 +5703,9 @@ border-radius: 4px;
   background-color: #EBEFF2;
 }
 
+#customers .arrow-down{
+  border-top: 50px solid #3A90D7;
+}
 
 #customers .triangle{
   border-top: 50px solid #3A90D7;
@@ -5760,7 +5762,7 @@ border-radius: 4px;
   text-align: center;
   width: 0; 
   height: 0; 
-  top: 100px;
+  top: 100px ;
   left: 50%;
   margin-left: -10px;
   border-left: 10px solid transparent;
@@ -5772,7 +5774,6 @@ border-radius: 4px;
   margin-top: 10px;
   color: #3D516A;
 }
-
 
 /***********Changes Sub-Footer Color. Doing it here because the original code is somewhere in the original designer's style sheet. Not gonna touch that******/
 #notifyme {
