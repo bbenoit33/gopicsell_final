@@ -59,7 +59,7 @@ meta.foundation-mq-xxlarge {
 
 html,
 body {
-  font-size: 100%; }
+  font-size: 14px;; }
 
 body {
   background: white;
@@ -5622,7 +5622,7 @@ border-right: 50px solid transparent;
 #contact_form textarea {
   border: 2px solid #E4E2F0;
   box-shadow: none;
-  min-height: 281px;
+  min-height: 136px;
 
 }
 
@@ -5649,7 +5649,6 @@ border: 2px solid #3d516a;
   color: #fff;
   padding-top: auto;
   padding-bottom: auto;
-  text-shadow: 1px 1px 0 #7A7A7A;
   -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
 border-radius: 4px;
@@ -5696,6 +5695,7 @@ border-radius: 4px;
 
 }
 
+<<<<<<< HEAD
 .home_top h1 {
   font-size: 2.60em;
   color: #fff;
@@ -5717,6 +5717,88 @@ border-radius: 4px;
   font-size: 2.0em;
   color: #fff;
 }
+
+#customers{
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 40px;
+  background-color: #EBEFF2;
+}
+
+#customers .arrow-down{
+  border-top: 50px solid #3A90D7;
+}
+
+#customers .triangle{
+  border-top: 50px solid #3A90D7;
+}
+
+
+#customers .circular_wrapper{
+  height: 125px;
+  width: 125px;
+  margin-left: 112px;
+  margin-top: 20px;
+}
+
+#customers h1{
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 2.5em;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: #3D516A;
+}
+
+#customers ul{
+  list-style: none;
+}
+
+#customers ul li{
+  width: 350px;
+  position: relative;
+  margin-left: 50px;
+  float: left; 
+  text-align: center;
+}
+
+#customers ul li.first{
+  margin-left: 20px;
+}
+
+#customers ul li .quote_wrapper{
+  background: #fff;
+  color: #959cac;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  height: 100px;
+  font-size: 1.1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#customers ul li .quote_wrapper .arrow-down, #customers ul li .quote_wrapper .triangle {
+  position: absolute;
+  text-align: center;
+  width: 0; 
+  height: 0; 
+  top: 100px ;
+  left: 50%;
+  margin-left: -10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+}
+
+#customers ul li p {
+  margin-top: 10px;
+  color: #3D516A;
+}
+
+>>>>>>> b860180f3df31409e77f81a3f5e6dcc21a562742
 /***********Changes Sub-Footer Color. Doing it here because the original code is somewhere in the original designer's style sheet. Not gonna touch that******/
 #notifyme {
   background: #fff;
@@ -5782,6 +5864,8 @@ border-radius: 4px;
 
 
  }
+
+
 
  /********************Terms and Conditions********************/
 
