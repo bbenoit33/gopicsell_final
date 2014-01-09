@@ -5745,7 +5745,7 @@ border-radius: 4px;
 }
 
 .homebanner_bottom {
-  margin-bottom: 30px !important;
+  margin-bottom: 15px !important;
 }
 
 .homebanner_bottom span{
@@ -5758,6 +5758,7 @@ border-radius: 4px;
 .homebanner_bottom img{
   height: 35px;
   width: auto;
+  margin-top: 15px;
 }
 
 #customers{
