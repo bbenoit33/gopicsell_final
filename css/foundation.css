@@ -5687,6 +5687,17 @@ border-radius: 4px;
   background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
 }
 
+/***********************New Home Form************************/
+
+.contact_banner{
+  min-height: 400px;
+  background: #3997e6;
+  margin-top: 20px;
+
+}
+
+
+
 /***********Changes Sub-Footer Color. Doing it here because the original code is somewhere in the original designer's style sheet. Not gonna touch that******/
 #notifyme {
   background: #fff;
