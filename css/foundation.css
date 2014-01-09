@@ -5744,6 +5744,22 @@ border-radius: 4px;
   color: #fff;
 }
 
+.homebanner_bottom {
+  margin-bottom: 30px !important;
+}
+
+.homebanner_bottom span{
+  font-family: "Museo_slab500","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 3em;
+  font-style: normal;
+  color: #194367;
+}
+
+.homebanner_bottom img{
+  height: 70px;
+  width: auto;
+}
+
 #customers{
   background: #fff;
   position: relative;
