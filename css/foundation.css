@@ -5902,7 +5902,7 @@ border-radius: 4px;
 @media only screen and (max-width: 40em) {
   .main_banner h1 {
         color: #fff;
-        font-size: 600%;
+        font-size: 400%;
         line-height: 100%;
     }
 
@@ -5935,3 +5935,129 @@ border-radius: 4px;
  .t_c ol, .t_c ul{
   line-height: 1.6em;
  }
+
+
+
+ /********************Testimonials Page************************/
+
+ .testimonials {
+  margin: 40px 0;
+ }
+
+ .circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  position: absolute;
+  /*top: 20px;*/
+  border: 4px solid #3A90D7;
+  /* width and height can be anything, as long as they're equal */
+}
+        
+/*Testimonial Pics*/
+            
+            .test_1{
+              background-image: url("../images/Gidon-Coussin.jpg");
+            }
+
+            .test_2{
+              background-image: url("../images/woman-large.jpg");
+            }
+
+            .test_3{
+              background-image: url("../images/avi-cohen.jpeg");
+            }
+
+/*Left Bubble*/
+
+ .bubble 
+{
+position: relative;
+width: 43.571em;
+min-height: 160px;
+padding: 20px 40px 20px 40px;
+background: #f3f5f7;
+-webkit-border-radius: 33px;
+-moz-border-radius: 33px;
+border-radius: 33px;
+border: #3A90D7 solid 4px;
+text-indent: 30px;
+margin-left: 270px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 17px 41px 17px 0;
+border-color: transparent #f3f5f7;
+display: block;
+width: 0;
+z-index: 1;
+left: -41px;
+top: 124px;
+}
+
+.bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 20px 44px 20px 0;
+border-color: transparent #3A90D7;
+display: block;
+width: 0;
+z-index: 0;
+left: -48px;
+top: 121px;
+}
+
+/*Left Bubble*/
+
+.bubbleleft 
+{
+position: relative;
+width: 610px;
+min-height: 160px;
+padding: 20px 40px 20px 40px;
+background: #f3f5f7;
+-webkit-border-radius: 33px;
+-moz-border-radius: 33px;
+border-radius: 33px;
+border: #3A90D7 solid 4px;
+text-indent: 30px;
+margin-right: 270px;
+}
+
+.bubbleleft:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 17px 0 17px 41px;
+border-color: transparent #f3f5f7;
+display: block;
+width: 0;
+z-index: 1;
+right: -41px;
+top: 124px;
+}
+
+.bubbleleft:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 20px 0 20px 44px;
+border-color: transparent #3A90D7;
+display: block;
+width: 0;
+z-index: 0;
+right: -48px;
+top: 121px;
+}
+
+.test_right {
+  margin-left: 680px;
+}
