@@ -7,8 +7,21 @@
 </div>
 	<section id="contact_form" class="content_area flap">
 		<div class="row">
-			<div class="large-10 large-centered columns submit_copy">
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  </p>
+			<div class="large-3 columns  submit_copy text-left">
+				<h4>Plain Backdrops</h4>
+				<p>Use a plain uncluttered backdrop to draw attention to your item</p>
+			</div>
+			<div class="large-3  columns  submit_copy text-left ">
+				<h4>Turn Flash Off</h4>
+				<p>Use diffused lighting (Sunlight)to prevent shadows and reflections</p>
+			</div>
+			<div class="large-3  columns  submit_copy text-left">
+				<h4>High Resolution</h4>
+				<p>Capture high-resolution pictures. Make sure buyers can use zoom and enlarge capabilities on your pictures</p>
+			</div>
+			<div class="large-3 columns submit_copy text-left">
+				<h4>Fill the Frame</h4>
+				<p>Make it easy for buyers to see every detail by filling the frame with the item</p>
 			</div>
 		</div>
 		<form>

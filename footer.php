@@ -17,12 +17,12 @@
       </nav>
       <ul id="contact_details">
         <li> <b>Address</b>: 175 Varick Street -- New York, NY 10014 </li>
-        <li> <b> Phone </b>: 212-628-8000</li>
+        <li> <b>Phone</b>: 212-628-8000</li>
         <li> <b>Email</b>: sales@gopicsell.com</li>     
       </ul>
       <ul id="selling">
         <li> <a href="recent_sold.php">Recent Sales</a> </li>
-        <li> <a href="submit.php">Testimonials</a> </li>
+        <li> <a href="testimonials.php">Testimonials</a> </li>
         <li><a href="guidelines.php">Guidelines</a></li>
       </ul>
       <ul id="support">
